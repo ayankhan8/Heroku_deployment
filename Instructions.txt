@@ -1,0 +1,4 @@
+1. Open & Run server folder using npm start in a separte VS Code window (It runs @ port 3008)
+2. Before that execute node createdb.js and node createtable.js from server folder (start wampserver before this)
+3. Open & Run kletrip folder using npm start in a separate VS Code window (It runs by default @ port 3000)
+4. Navigate Using Browser

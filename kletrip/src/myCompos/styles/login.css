@@ -1,0 +1,87 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  position: fixed;
+  right:80px; 
+  top:20px;
+  font-size: 25px;
+  
+ }
+ 
+ .AddingPassword {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: lightblue;
+     width: 100%;
+     height: 500px;
+     border-radius: 20px;
+     margin-top: 20px;
+ }
+ 
+ .AddingPassword button, input{
+     width: 300px;
+     height: 40px;
+     border: none;
+     border-radius: 7px;
+     margin: 10px;
+     padding-left: 15px;
+     font-size: 17px;
+ }
+ 
+ #btn {
+     cursor: pointer;
+     color: black;
+ }
+ 
+ .Passwords {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20px;
+ }
+ 
+ .password {
+     width: 200px;
+     height: 70px;
+     background-color: black;
+     border-radius: 7px;
+     color: white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 10px;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     cursor: pointer;
+ }
+
+
+
+ body{
+     background-color : beige;
+      /* background-image: url("kle.jpg"); */
+     /* background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position:left; */
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     /*background-position: left; 
+     background-size: 550px; */
+     min-height: 100vh;
+     width: 100%;
+     background-image:url("../images/background1.jpg");
+     background-position: center;
+     background-size: cover ;
+     position: relative;
+     font-size: 25px;
+     font-style: italic;
+     font-family: 'Franklin Gothic Medium';
+     color :brown;
+   }
+ 
