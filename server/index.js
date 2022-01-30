@@ -64,6 +64,6 @@ app.get('/mypassword',(request,response)=>{
 });
 
 
-app.listen(process.env.PORT | PORT,()=>{
+app.listen(process.env.PORT || PORT,()=>{
     console.log("Server is running");
 })
